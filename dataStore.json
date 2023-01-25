@@ -1,0 +1,193 @@
+{
+    "users": {
+        "1hayden.smith@unsw.edu.au": {
+            "uId": 1,
+            "nameFirst": "Hayden",
+            "nameLast": "Smith",
+            "handleStr": "haydensmith",
+            "password": "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8",
+            "globalPermission": 1,
+            "profileImgUrl": "http://localhost:5739/src/profileImgs/default.jpg"
+        },
+        "2hayden.smith@unsw.edu.au": {
+            "uId": 2,
+            "nameFirst": "Hayden",
+            "nameLast": "Smith",
+            "handleStr": "haydensmith0",
+            "password": "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8",
+            "globalPermission": 2,
+            "profileImgUrl": "http://localhost:5739/src/profileImgs/default.jpg"
+        },
+        "3hayden.smith@unsw.edu.au": {
+            "uId": 3,
+            "nameFirst": "Hayden",
+            "nameLast": "Smith",
+            "handleStr": "haydensmith1",
+            "password": "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8",
+            "globalPermission": 2,
+            "profileImgUrl": "http://localhost:5739/src/profileImgs/default.jpg"
+        },
+        "4hayden.smith@unsw.edu.au": {
+            "uId": 4,
+            "nameFirst": "Hayden",
+            "nameLast": "Smith",
+            "handleStr": "haydensmith2",
+            "password": "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8",
+            "globalPermission": 2,
+            "profileImgUrl": "http://localhost:5739/src/profileImgs/default.jpg"
+        },
+        "5hayden.smith@unsw.edu.au": {
+            "uId": 5,
+            "nameFirst": "Hayden",
+            "nameLast": "Smith",
+            "handleStr": "haydensmith3",
+            "password": "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8",
+            "globalPermission": 2,
+            "profileImgUrl": "http://localhost:5739/src/profileImgs/default.jpg"
+        }
+    },
+    "channels": [
+        {
+            "channelId": 1,
+            "channelName": "Imagine Dragons",
+            "publicStatus": true,
+            "members": [
+                1
+            ],
+            "owners": [
+                1
+            ],
+            "messages": []
+        },
+        {
+            "channelId": 2,
+            "channelName": "Imagine Dragons",
+            "publicStatus": true,
+            "members": [
+                3,
+                2
+            ],
+            "owners": [
+                3
+            ],
+            "messages": [
+                2
+            ]
+        }
+    ],
+    "tokens": {
+        "xfaxn5l6gbckl9": 1,
+        "xfaxn5l6gbcknf": 2,
+        "xfaxn5l6gbckov": 3,
+        "xfaxn5l6gbckpt": 4,
+        "xfaxn5l6gbckqo": 5
+    },
+    "dms": [
+        {
+            "dmId": 1,
+            "name": "haydensmith, haydensmith0, haydensmith1",
+            "owner": 1,
+            "members": [
+                2,
+                3,
+                1
+            ],
+            "messages": [
+                3
+            ]
+        },
+        {
+            "dmId": 2,
+            "name": "haydensmith0, haydensmith1, haydensmith2, haydensmith3",
+            "owner": 5,
+            "members": [
+                2,
+                3,
+                4,
+                5
+            ],
+            "messages": [
+                4
+            ]
+        }
+    ],
+    "messages": [
+        {
+            "messageId": 2,
+            "message": "Test messageC2",
+            "uId": 2,
+            "timeSent": 1659694661,
+            "isPinned": false,
+            "reacts": []
+        },
+        {
+            "messageId": 3,
+            "message": "Test messageD1",
+            "uId": 1,
+            "timeSent": 1659694661.629,
+            "isPinned": false,
+            "reacts": []
+        },
+        {
+            "messageId": 4,
+            "message": "Test messageD2",
+            "uId": 2,
+            "timeSent": 1659694661.662,
+            "isPinned": false,
+            "reacts": []
+        }
+    ],
+    "notifications": {
+        "1": [],
+        "2": [
+            {
+                "dmId": 2,
+                "channelId": -1,
+                "notificationMessage": "haydensmith3 added you to haydensmith0, haydensmith1, haydensmith2, haydensmith3"
+            },
+            {
+                "dmId": 1,
+                "channelId": -1,
+                "notificationMessage": "haydensmith added you to haydensmith, haydensmith0, haydensmith1"
+            }
+        ],
+        "3": [
+            {
+                "dmId": 2,
+                "channelId": -1,
+                "notificationMessage": "haydensmith3 added you to haydensmith0, haydensmith1, haydensmith2, haydensmith3"
+            },
+            {
+                "dmId": 1,
+                "channelId": -1,
+                "notificationMessage": "haydensmith added you to haydensmith, haydensmith0, haydensmith1"
+            }
+        ],
+        "4": [
+            {
+                "dmId": 2,
+                "channelId": -1,
+                "notificationMessage": "haydensmith3 added you to haydensmith0, haydensmith1, haydensmith2, haydensmith3"
+            }
+        ],
+        "5": []
+    },
+    "standup": [
+        {
+            "channelId": 1,
+            "isActive": false,
+            "creator": null,
+            "message": [],
+            "timeFinish": null
+        },
+        {
+            "channelId": 2,
+            "isActive": false,
+            "creator": null,
+            "message": [],
+            "timeFinish": null
+        }
+    ],
+    "resetCode": {},
+    "removedUsers": []
+}
